@@ -1,0 +1,8 @@
+---
+# tasks file for joestewart.pa11y
+
+- name: "Node: Install PhantomJS."
+  npm: name=phantomjs global=yes state=latest
+
+- name: "Node: Install Pa11y."
+  npm: name=pa11y global=yes state=latest
